@@ -14,6 +14,12 @@ int main(){
     {
         cout << *i << " "; // getting the element by derefrencing 
     }
+
+    cout<<endl;
+    for(auto var : b)
+    {
+        cout << var << " ";
+    }
     
     return 0;
 }
