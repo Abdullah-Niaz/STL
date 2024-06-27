@@ -14,6 +14,8 @@ int main()
     l.remove(50); // removes the element from the list
     l.sort();     // sort the elements inside the list in assceding order
     l.reverse();  // reverse the list
+
+    
     for (auto a : l)
     {
         cout << a;
